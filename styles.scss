@@ -55,12 +55,15 @@ $sofiaPro: "sofia-pro", sans-serif;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     font-size: 1.05rem;
     font-weight: 700;
     color: rgb(0, 51, 141);
+    .sub-link {
+        width: 100%;
+    }
     .sub-text {
-        width: 80%;
+        width: 90%;
     }
 }
 .section-header.active .sub-title,
